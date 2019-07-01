@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>{{ title }} - Microblog</title>
+    </head>
+    <body>
+        <h1>Hello, {{ user.name }}!</h1>
+        <h2>You are {{ user.age }} years old, correct?</h2>
+        <h3>Also, you have {{ user.pets }} cats. Isn't that right?</h3>
+        <br />
+        <br />
+        <h1>We've been following you :)</h1>
+        <p>Before we go...leave a sentence.</p>
+        <form method="post" action="/separator">
+          <label for="sentence">Enter a sentence here.</label>
+          <input type='text' name='sentence'>
+          <input type='submit'>
+        </form>
+    </body>
+</html>

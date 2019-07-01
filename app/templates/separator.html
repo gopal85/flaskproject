@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Print Words in Sentence.</title>
+    <link rel = "stylesheet"
+   type = "text/css"
+   href = "static/project.css" />
+</head>
+<body>
+
+<p>Here's your sentence, broken into words.</p>
+</<br>
+
+<ol>
+{%for i in range(0, len)%}
+
+    <li><h2>{{broken[i]}}</h2></li>
+{%endfor%}
+
+</ol>
+
+</body>
+</html>
